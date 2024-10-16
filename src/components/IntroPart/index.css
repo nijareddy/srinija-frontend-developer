@@ -1,0 +1,149 @@
+
+.whitepaper-btn,
+.get-started-btn {
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.whitepaper-btn {
+    background-color:grey;
+
+}
+
+.get-started-btn {
+    background: linear-gradient(90deg, #9E6EE5 0%, #FA75F8 100%);
+
+}
+
+.intro-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 96px 64px;
+  background-image: radial-gradient(50% 50% at 50% 50%, rgba(158, 110, 230, 0.28) 0%, rgba(158, 110, 230, 0) 100%);
+  width: 1440px;
+  height: 1292px;
+ 
+
+}
+
+.intro-text {
+  max-width: 600px;
+}
+
+.intro-text h1 {
+  font-size: 48px;
+  line-height: 59px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.intro-text p {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.new-feature {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: rgba(171, 171, 171, 0.15);
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.image-gallery img{
+
+  width: 178px;
+  height: 177px;
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;
+
+}
+.image-gallery{
+display:flex;
+flex-direction: column;
+}
+.image-gallery-1{
+    padding: 111px 0px 0px 0px;
+    margin:10px;
+}
+.image-gallery-2{
+ margin:10px;
+}
+.image-gallery-3{
+    padding: 111px 0px 0px 0px;
+    margin:10px;
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+}
+.intro-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #000;
+  color: #fff;
+}
+
+.new-feature {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #ffcd00;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.get-started-btn {
+  color: #fff;
+  background-color: #6a0dad;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.image-gallery {
+  display: flex;
+  gap: 10px;
+}
+
+.image-gallery img {
+  width: 80px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .intro-section {
+    padding: 20px 10px;
+  }
+  
+  .gallery {
+    flex-direction: column;
+  }
+
+  .image-gallery {
+    justify-content: center;
+  }
+}
